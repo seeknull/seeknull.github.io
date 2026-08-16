@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.guru.otprelay",
+      "sha256_cert_fingerprints": [
+        "E1:6D:F1:6A:C2:43:70:F8:86:A0:64:3D:98:4F:F3:E3:71:A7:30:6A:9B:C2:F3:53:59:7B:C6:34:51:B3:0C:0E",
+        "3E:2C:7A:E4:84:C9:76:C3:43:B5:8F:EE:66:27:F0:A9:CE:88:2A:8E:FE:0A:DD:A5:3B:E3:15:43:BB:36:46:7E"
+      ]
+    }
+  }
+]

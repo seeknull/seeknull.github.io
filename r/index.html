@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>OTP Relay request</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem;
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    display: flex; justify-content: center;
+    background: #f6f7f9; color: #14181f;
+  }
+  main { max-width: 34rem; }
+  h1 { font-size: 1.5rem; margin: 0 0 .5rem; }
+  p { margin: 0 0 1rem; }
+  .muted { color: #5b6472; font-size: .925rem; }
+  code {
+    background: #e6e9ee; padding: .15rem .4rem; border-radius: .25rem;
+    font-size: .875rem; word-break: break-all;
+  }
+  a { color: #1d3557; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #14181f; color: #e8eaee; }
+    .muted { color: #9aa4b2; }
+    code { background: #232a35; }
+    a { color: #9bb8e8; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>OTP Relay request link</h1>
+
+  <p>
+    If OTP Relay is installed on this phone, this link opens the app and shows an approval
+    prompt. Since you are reading this page instead, the app is not installed here.
+  </p>
+
+  <p class="muted">
+    This page is static. The request details travel in the part of the URL after the
+    <code>#</code>, which browsers never send to the server, so nothing about the request
+    reached this site or was recorded anywhere.
+  </p>
+
+  <p class="muted">
+    OTP Relay is an open source Android app that forwards one-time passcodes to one chosen
+    number for a limited time. Source and installation instructions:
+    <a href="https://github.com/seeknull/otp-relay">github.com/seeknull/otp-relay</a>
+  </p>
+</main>
+</body>
+</html>
