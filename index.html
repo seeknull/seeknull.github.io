@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>seeknull</title>
-<meta name="description" content="Projects by seek:null — main site at seeknull.com.">
+<title>seeknull — projects by seek:null</title>
+<meta name="description" content="Projects by seek:null: orbit, OTP Relay, DontSleepMac, OpenWispr and Claude Code Remote. Things built to scratch an itch. Main site at seeknull.com.">
+<link rel="canonical" href="https://seeknull.github.io/">
 <style>
   :root { color-scheme: light dark; }
   * { box-sizing: border-box; }
@@ -27,29 +28,66 @@
   .name { font-weight: 600; text-decoration: none; color: #14181f; }
   .name:hover { text-decoration: underline; }
   .what { display: block; color: #5b6472; font-size: .93rem; margin-top: .15rem; }
+  .more { display: block; font-size: .85rem; margin-top: .3rem; color: #78808d; }
+  .more a { color: inherit; }
   footer { margin-top: 3rem; font-size: .85rem; color: #78808d; }
   footer a { color: inherit; }
   @media (prefers-color-scheme: dark) {
     body { background: #14181f; color: #e8eaee; }
-    .lede, h2, .what, footer { color: #98a1af; }
+    .lede, h2, .what, .more, footer { color: #98a1af; }
     li { border-color: #262c36; }
     .name { color: #e8eaee; }
   }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://seeknull.github.io/",
+  "url": "https://seeknull.github.io/",
+  "name": "seeknull — projects by seek:null",
+  "publisher": { "@type": "Organization", "@id": "https://seeknull.com/#org", "name": "seek:null", "url": "https://seeknull.com/", "sameAs": ["https://github.com/seeknull"] },
+  "hasPart": [
+    { "@type": "SoftwareSourceCode", "name": "orbit", "codeRepository": "https://github.com/seeknull/orbit", "url": "https://seeknull.com/orbit" },
+    { "@type": "SoftwareSourceCode", "name": "OTP Relay", "codeRepository": "https://github.com/seeknull/otp-relay", "url": "https://seeknull.com/otp-relay" },
+    { "@type": "SoftwareSourceCode", "name": "DontSleepMac", "codeRepository": "https://github.com/seeknull/DontSleepMac", "url": "https://seeknull.com/dontsleepmac" },
+    { "@type": "SoftwareSourceCode", "name": "OpenWispr", "codeRepository": "https://github.com/seeknull/openwispr", "url": "https://seeknull.com/openwispr" },
+    { "@type": "SoftwareSourceCode", "name": "Claude Code Remote", "codeRepository": "https://github.com/seeknull/claudecode-remote", "url": "https://seeknull.com/claudecode-remote" }
+  ]
+}
+</script>
 </head>
 <body>
 <main>
-  <h1>seeknull</h1>
+  <h1>seek:null</h1>
   <p class="lede">Things built to scratch an itch.</p>
 
   <h2>Projects</h2>
   <ul>
     <li>
+      <a class="name" href="https://github.com/seeknull/orbit">orbit</a>
+      <span class="what">Hackable always-on robots: one brain, many bodies. Sees, hears, talks, moves. Vision, audio and language models are all swappable, on hardware you extend yourself.</span>
+      <span class="more"><a href="https://seeknull.com/orbit">seeknull.com/orbit</a> · <a href="https://github.com/seeknull/orbit">github.com/seeknull/orbit</a></span>
+    </li>
+    <li>
       <a class="name" href="https://github.com/seeknull/otp-relay">OTP Relay</a>
-      <span class="what">
-        Android app that forwards one-time passcodes to one chosen contact, for a set time.
-        No server, no SMS gateway.
-      </span>
+      <span class="what">Forwards one-time passcodes to one chosen contact, for a set time. Runs entirely on the phone: no server, no SMS gateway, no network calls.</span>
+      <span class="more"><a href="https://seeknull.com/otp-relay">seeknull.com/otp-relay</a> · <a href="https://github.com/seeknull/otp-relay">github.com/seeknull/otp-relay</a></span>
+    </li>
+    <li>
+      <a class="name" href="https://github.com/seeknull/DontSleepMac">DontSleepMac</a>
+      <span class="what">A one-click menu-bar toggle that keeps your Mac awake. Hold the display on, or let the screen go dark while the work carries on.</span>
+      <span class="more"><a href="https://seeknull.com/dontsleepmac">seeknull.com/dontsleepmac</a> · <a href="https://github.com/seeknull/DontSleepMac">github.com/seeknull/DontSleepMac</a></span>
+    </li>
+    <li>
+      <a class="name" href="https://seeknull.github.io/openwispr/">OpenWispr</a>
+      <span class="what">Press a hotkey, talk, and the text lands wherever your cursor is. The speech model runs on the Mac: no network call anywhere in the dictation path.</span>
+      <span class="more"><a href="https://seeknull.com/openwispr">seeknull.com/openwispr</a> · <a href="https://github.com/seeknull/openwispr">github.com/seeknull/openwispr</a></span>
+    </li>
+    <li>
+      <a class="name" href="https://github.com/seeknull/claudecode-remote">Claude Code Remote</a>
+      <span class="what">Run Claude Code on one machine and drive it from a browser on any other. Watch the sessions already running, or start new ones. Stays on your machine, behind a password.</span>
+      <span class="more"><a href="https://seeknull.com/claudecode-remote">seeknull.com/claudecode-remote</a> · <a href="https://github.com/seeknull/claudecode-remote">github.com/seeknull/claudecode-remote</a></span>
     </li>
   </ul>
 
